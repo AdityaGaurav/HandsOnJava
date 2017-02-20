@@ -1,0 +1,13 @@
+#User Details
+name= Aditya
+password = Aditya@9389
+
+#Website
+#websiteName = Flipkart
+#websiteName = Amazon
+websiteName = Snapdeal
+
+#WebSite URL
+FlipKart.url = https://www.flipkart.com/
+Amazon.url = http://www.amazon.in/
+Snapdeal.url =https://www.snapdeal.com/
