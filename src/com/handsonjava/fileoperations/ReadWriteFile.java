@@ -51,4 +51,18 @@ public class ReadWriteFile {
             }
         }
     }
+
+    public static void main(String[] args){
+        String details ="My name is Aditya." +
+                "I am a Software Engineer" +
+                "Currently working with \"Pramati\"";
+        String filePath ="/Users/adityag/Projects1/Mydetails.txt";
+
+        writeOntoFile(filePath,details );
+        System.out.println("===========File Details========");
+        readFromFile(filePath);
+
+
+
+    }
 }
