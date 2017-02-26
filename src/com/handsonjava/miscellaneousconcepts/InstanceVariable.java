@@ -15,4 +15,6 @@ public class InstanceVariable {
         System.out.println(i.ary1);
     }
 
+
+
 }
