@@ -15,6 +15,7 @@ public class BitwiseOperator {
     System.out.println(5>4 || 6>7);
     System.out.println(5>4 | 6>7);
 
+
         System.out.println(5 | 6);
 //
         System.out.println(5 & 6);

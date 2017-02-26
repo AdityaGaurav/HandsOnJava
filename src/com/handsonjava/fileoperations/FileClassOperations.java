@@ -2,6 +2,7 @@ package com.handsonjava.fileoperations;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -17,9 +18,10 @@ public class FileClassOperations {
 
     public static void loadProperties() throws IOException {
         File file = new File(testPropsFile);
-        FileInputStream fileInput = new FileInputStream(file);
+//        FileInputStream fileInput = new FileInputStream(file);
+        FileReader reader =new FileReader(testPropsFile);
         props = new Properties();
-        props.load(fileInput);
+        props.load(reader);
     }
 
 
@@ -69,6 +71,7 @@ public class FileClassOperations {
 //        String testPropsFile1 = System.getProperty("props.file");
         testPropsFile = new File(System.getProperty("user.dir")).getAbsolutePath() + File.separator + "test.props";
         System.out.println(testPropsFile);
+        System.out.println(getURL());
     }
 
 

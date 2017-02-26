@@ -7,8 +7,8 @@ import java.io.File;
  */
 public class FindDirectory {
 
-    public static void printFileIntoDirectory() {
-        String filePath = "/Users/adityag/Projects";
+    //    Print name of all the existing files in directory
+    public static void printFileIntoDirectory(String filePath) {
         File file = new File(filePath);
         if (file.isDirectory()) {
             String[] files = file.list();
@@ -18,7 +18,24 @@ public class FindDirectory {
         }
     }
 
+    public static void createNewDirectory(String filePath) {
+
+        File file = new File(filePath);
+        file.mkdir();
+
+        if (file.isDirectory()) {
+            System.out.println("Directory Created");
+        } else {
+            System.out.println("Directory is not Created");
+        }
+    }
+
+
+
+
     public static void main(String[] args) {
-        printFileIntoDirectory();
+        String filePath = "/Users/adityag/Projects";
+        printFileIntoDirectory(filePath);
+        createNewDirectory("/Users/adityag/Projects1");
     }
 }
