@@ -72,6 +72,8 @@ public class FileClassOperations {
         testPropsFile = new File(System.getProperty("user.dir")).getAbsolutePath() + File.separator + "test.props";
         System.out.println(testPropsFile);
         System.out.println(getURL());
+
+
     }
 
 

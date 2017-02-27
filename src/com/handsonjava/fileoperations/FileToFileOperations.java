@@ -22,9 +22,9 @@ public class FileToFileOperations {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader((System.in)));
             String consoleData = bufferedReader.readLine();
 
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File(filePath),true));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File(filePath), true));
             bufferedWriter.write(consoleData);
-
+//We  can use PrintWriter as well
 //            PrintWriter out = new PrintWriter(new FileOutputStream(file));
 //            out.write(consoleData);
 
@@ -44,7 +44,7 @@ public class FileToFileOperations {
 
 //            while passing true as an argument, it does not overwrite data. It appends at the end of existing line.
 //            So if you remove true, it overwrites the existing line by the the new line.
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File(filePathToWrite),true));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File(filePathToWrite), true));
             bufferedWriter.write(data);
             System.out.println("=======Process Completed============");
 
@@ -59,6 +59,6 @@ public class FileToFileOperations {
         String file = "/Users/adityag/Projects1/Mydetails1.txt";
         String file2 = "/Users/adityag/Projects/Mydetails.txt";
         writeIntoFile(file);
-       writeToFile(file, file2);
+        writeToFile(file, file2);
     }
 }

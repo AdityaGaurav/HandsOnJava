@@ -40,6 +40,13 @@ public class ReadWriteFile {
                     System.out.println(line);
                 }
 
+//                ready() method can be used to serve the same purpose.
+//                while (bufferedReader.ready()) {
+//                    line = bufferedReader.readLine();
+//                    System.out.println(line);
+//                }
+
+
             }
         } catch (IOException e) {
             e.printStackTrace();
