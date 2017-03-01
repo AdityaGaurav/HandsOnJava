@@ -16,10 +16,18 @@ public class SinglyLinkedListTest {
         node1.setNode(node2);
         node2.setNode(node3);
 
+//        Addition of nodes
+        System.out.println("Addition of nodes");
         operation.addNodeInSinglyLinkedList(node1,node4, 4);
         operation.addNodeInSinglyLinkedList(node1,node5, 1);
         System.out.println(operation.lenthOfSinglyLinkedList(node5));
         operation.printNodeOfLinkedListNode(node5);
+
+//        Deletion of  nodes
+        System.out.println("\n Deletion of  nodes");
+        operation.deleteNodeFromSinglyLinkedListOperations(node5,1);
+        operation.printNodeOfLinkedListNode(node5);
+       System.out.println("\n");//+operation.lenthOfSinglyLinkedList(node5));
 
 
     }

@@ -35,13 +35,10 @@ public class SinglyLinkedListOperations {
             System.exit(0);
         } else {
             int count = 1;
-
             if (position == 1) {
-
                 nodeToInsert.setNode(headNode);
-                headNode =nodeToInsert;
+                headNode = nodeToInsert;
                 return headNode;
-
             } else {
                 LinkedListNode tempNode = headNode;
                 while (count < position - 1) {
@@ -52,6 +49,36 @@ public class SinglyLinkedListOperations {
                 LinkedListNode previous = tempNode.getNode();
                 nodeToInsert.setNode(previous);
                 tempNode.setNode(nodeToInsert);
+            }
+        }
+        return headNode;
+    }
+
+    public LinkedListNode deleteNodeFromSinglyLinkedListOperations(LinkedListNode headNode, int postion) {
+        int length = lenthOfSinglyLinkedList(headNode);
+
+        if (postion < 0 || postion > length) {
+            System.out.println("Range should be <= " + length);
+            System.exit(0);
+        } else {
+            LinkedListNode tempNode = headNode;
+            if (postion == 1) {
+                headNode = tempNode.getNode();
+                tempNode.setNode(null);
+                printNodeOfLinkedListNode(headNode);
+                return headNode;
+            } else {
+                int count = 1;
+                while (count < postion - 1) {
+                    tempNode = tempNode.getNode();
+                    ++count;
+                }
+                LinkedListNode previousNode = tempNode;
+                tempNode = tempNode.getNode();
+                LinkedListNode nextNode = tempNode.getNode();
+                previousNode.setNode(nextNode);
+
+
             }
         }
         return headNode;
