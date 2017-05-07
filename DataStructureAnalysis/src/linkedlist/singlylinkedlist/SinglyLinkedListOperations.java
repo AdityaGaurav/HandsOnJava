@@ -77,8 +77,6 @@ public class SinglyLinkedListOperations {
                 tempNode = tempNode.getNode();
                 LinkedListNode nextNode = tempNode.getNode();
                 previousNode.setNode(nextNode);
-
-
             }
         }
         return headNode;

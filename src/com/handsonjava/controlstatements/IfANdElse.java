@@ -19,7 +19,18 @@ public class IfANdElse {
     }
 
 
+    public static void returnEmpty(){
+        if(true){
+            System.out.println("Empty return");
+            return;
+        }
+
+        System.out.println("Empty return");
+    }
+
+
     public static void main(String[] args) {
+        returnEmpty();
         implementIfElse(-1);
     }
 }

@@ -29,7 +29,10 @@ public class ForLoop {
     }
 
     public static void main(String[] args){
-        createForLoop();
+        for(int i=0, j=i; i< 5; j =i++){
+            System.out.println(j);
+        }
+//        createForLoop();
     }
 
 }
