@@ -25,6 +25,9 @@ public class HashMapPractice {
             user.add(roll);
         }
 
+        for(String roll: user){
+            System.out.println(roll);
+        }
       System.out.println(user.size());
 
 

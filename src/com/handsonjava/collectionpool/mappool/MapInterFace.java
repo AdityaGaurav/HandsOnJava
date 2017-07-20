@@ -48,6 +48,7 @@ public class MapInterFace {
             System.out.print(empDetails.get(key) + "\n");
 
         }
+        System.out.println("Collection view is: "+ empDetails.values());
 
         System.out.println(empDetails.size());
         System.out.println(empDetails);

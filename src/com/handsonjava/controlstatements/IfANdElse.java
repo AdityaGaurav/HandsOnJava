@@ -20,6 +20,13 @@ public class IfANdElse {
 
 
     public static void returnEmpty(){
+        boolean result = false;
+        if(!result) {
+            System.out.println("result: " + result);
+        }
+        if(result == false){
+            System.out.println("result: " + result);
+        }
         if(true){
             System.out.println("Empty return");
             return;

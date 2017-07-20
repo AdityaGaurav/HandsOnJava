@@ -18,13 +18,23 @@ public class ForLoop {
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
-
         for (int i = 0, j = 1; i < 10 && j < 10; i++, j++) {
-
             int c = i +j ;
             i=j;
             j=c;
             System.out.println(c);
+        }
+    }
+
+    public static void throwException(String s) {
+            if(s.trim().length() == 0 || s == null){
+                throw new RuntimeException();
+            }
+    }
+    public void printAllString(String inp){
+        String[] splitString = inp.split(" ");
+        for(String str: splitString){
+            System.out.print(str);
         }
     }
 

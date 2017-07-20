@@ -11,13 +11,10 @@ public class RepeatedSTring {
         int count = 0;
         String[] inputs = input.split(" ");
         HashMap<String, Integer> countString = new HashMap<String, Integer>();
-for(String str : inputs){
-    Integer frequency = countString.get(str);
-    countString.put(str, (frequency == null)?1: frequency+1);
-
-}
-
-
+        for (String str : inputs) {
+            Integer frequency = countString.get(str);
+            countString.put(str, (frequency == null) ? 1 : frequency + 1);
+        }
         for (String roll : countString.keySet()) {
             System.out.println(roll + " : " + countString.get(roll));
 //            System.out.print(countString.get(roll) + "\n");
@@ -25,6 +22,7 @@ for(String str : inputs){
     }
 
     public static void main(String[] args) {
-        countRepeatedString("aaaa aaa aa a a a ");
+        String input = "aaaa aaa aa a a a ";
+        countRepeatedString(input);
     }
 }
