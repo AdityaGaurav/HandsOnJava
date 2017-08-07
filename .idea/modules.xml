@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DataStructureAnalysis/DataStructureAnalysis.iml" filepath="$PROJECT_DIR$/DataStructureAnalysis/DataStructureAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/HandsOnJava.iml" filepath="$PROJECT_DIR$/HandsOnJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaEightConcepts/JavaEightConcepts.iml" filepath="$PROJECT_DIR$/JavaEightConcepts/JavaEightConcepts.iml" />
     </modules>
   </component>
 </project>
