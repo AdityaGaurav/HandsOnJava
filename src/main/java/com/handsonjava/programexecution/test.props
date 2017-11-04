@@ -1,0 +1,4 @@
+test.env.prop = qaslot
+test.totalqa.prop = 4
+test.framework.prop = selenium
+test.testingtool.prop = testng

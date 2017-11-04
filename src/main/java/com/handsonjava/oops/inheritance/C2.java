@@ -4,6 +4,9 @@ package com.handsonjava.oops.inheritance;
  * Created by adityag on 7/17/2017.
  */
 public class C2 extends P {
+    public C2() throws Exception {
+    }
+
     public String draw(){
         return "Draw Using C";
     }

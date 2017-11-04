@@ -25,6 +25,21 @@ public class DuplicateArray {
         return result;
     }
 
+    public static boolean isArrayContainDuplicateArray(int[] ints){
+        boolean isDuplicate= false;
+        Set<Integer> uniqueElement = new HashSet<>();
+        for(int number : ints){
+            if(!uniqueElement.contains(number)){
+                uniqueElement.add(number);
+//                isDuplicate = false;
+            } else {
+                isDuplicate =true;
+                break;
+            }
+        }
+        return isDuplicate;
+    }
+
     public static boolean findDuplicatesInArrayr(int[] input) {
         Arrays.sort(input);
         for (int i = 0; i < input.length - 1; ++i) {
@@ -62,6 +77,6 @@ public class DuplicateArray {
 
     public static void main(String[] args) {
         int[] input = {1,0,1,1};
-        System.out.println(findDistanceBetweenDuplicates(input, 1));
+        System.out.println(isArrayContainDuplicateArray(input));
     }
 }

@@ -14,6 +14,7 @@ public class HashMapPractice {
         userData.put("Anand","Btech:Coumputer Science");
         userData.put("Dipika","MBA:Computer Scince, BSC:Coumputer Science");
         userData.put("Gyan","BSC:Coumputer Science");
+        userData.put(null,"null");
         return userData;
     }
 
