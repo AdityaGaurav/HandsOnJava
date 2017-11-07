@@ -14,10 +14,13 @@ public class ExtendAbstractClass extends AbstractClass {
 //    static void printMessage() {
 //        System.out.println("I am a ExtendAbstractClass class");
 //    }
+static void printMessage() {
+    System.out.println("I am a concerete class");
+}
 
     public static void main(String[] args) {
         AbstractClass abs = new ExtendAbstractClass();
-        abs.abstractMethod();
+        //abs.abstractMethod();
         abs.sayHello();
         printMessage();
     }

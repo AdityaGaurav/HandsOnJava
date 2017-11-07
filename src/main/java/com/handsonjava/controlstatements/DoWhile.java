@@ -5,16 +5,32 @@ package com.handsonjava.controlstatements;
  */
 public class DoWhile {
 
-    public static void createDoWhile(){
-        int x=0;
-        do{
+    public static void createDoWhile() {
+        int x = 0;
+        //exit control loop
+        do {
+            x++;
+            System.out.println(x);
+        } while (x < 10);
+    }
 
+    static void whileLoop() {
+        int x = 0;
+        //entry control loop
+        while (x < 10) {
             System.out.println(x);
             x++;
-        }while(x < 10);
+        }
     }
-public static void main(String[] args){
-    createDoWhile();
-}
+
+    public static void main(String[] args) {
+        //Infinite for loop
+//        for(;;){
+//            System.out.println("=============================");
+//        }
+        whileLoop();
+        System.out.println("=============================");
+        createDoWhile();
+    }
 
 }

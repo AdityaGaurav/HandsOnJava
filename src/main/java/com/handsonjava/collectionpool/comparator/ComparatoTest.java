@@ -40,5 +40,6 @@ public class ComparatoTest {
         for(Employee employee: employees1){
             System.out.println(employee);
         }
+//        Collections.sort(employees1, new MyCustomComparator());
     }
 }

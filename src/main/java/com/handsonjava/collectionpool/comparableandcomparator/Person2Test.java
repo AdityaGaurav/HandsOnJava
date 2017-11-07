@@ -27,7 +27,7 @@ public class Person2Test {
 
         System.out.println("Natural Order");
 
-        for (int i=0; i<4; i++) {
+        for (int i=0; i<persons.length; i++) {
             PersonIntegrationComparatorInComparable person = persons[i];
             String lastName = person.getLastName();
             String firstName = person.getFirstName();
@@ -39,7 +39,7 @@ public class Person2Test {
         System.out.println();
         System.out.println("Sorted by last name");
 
-        for (int i=0; i<4; i++) {
+        for (int i=0; i<persons.length; i++) {
             PersonIntegrationComparatorInComparable person = persons[i];
             String lastName = person.getLastName();
             String firstName = person.getFirstName();
@@ -51,7 +51,7 @@ public class Person2Test {
         System.out.println();
         System.out.println("Sorted by first name");
 
-        for (int i=0; i<4; i++) {
+        for (int i=0; i<persons.length; i++) {
             PersonIntegrationComparatorInComparable person = persons[i];
             String lastName = person.getLastName();
             String firstName = person.getFirstName();
@@ -63,7 +63,7 @@ public class Person2Test {
         System.out.println();
         System.out.println("Sorted by age");
 
-        for (int i=0; i<4; i++) {
+        for (int i=0; i<persons.length; i++) {
             PersonIntegrationComparatorInComparable person = persons[i];
             String lastName = person.getLastName();
             String firstName = person.getFirstName();

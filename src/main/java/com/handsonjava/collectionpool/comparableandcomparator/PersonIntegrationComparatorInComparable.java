@@ -38,6 +38,7 @@ public class PersonIntegrationComparatorInComparable implements Comparable<Perso
         int anotherPersonAge = ((PersonIntegrationComparatorInComparable) anotherPerson).getAge();
         return this.age - anotherPersonAge;
     }
+
     public static Comparator LastNameComparator = new Comparator() {
         public int compare(Object person, Object anotherPerson) {
             String lastName1 = ((PersonIntegrationComparatorInComparable) person).getLastName().toUpperCase();
