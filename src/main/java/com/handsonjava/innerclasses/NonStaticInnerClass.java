@@ -3,6 +3,7 @@ package com.handsonjava.innerclasses;
 public class NonStaticInnerClass {
     private int[] subjectCode;
     String classTeacher;
+    static int conNum;
 
     public NonStaticInnerClass() {
         subjectCode = new int[]{101,102,103,104};

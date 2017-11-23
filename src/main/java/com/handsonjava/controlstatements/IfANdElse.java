@@ -18,13 +18,23 @@ public class IfANdElse {
         }
     }
 
+    public static void printResult(int num){
+        if(num > 0 ){
+            System.out.println(num);
+        }else {
+            System.out.println(num);
+            printResult(num -1);
+        }
+
+    }
+
 
     public static void returnEmpty(){
         boolean result = false;
         if(!result) {
             System.out.println("result: " + result);
         }
-        if(result == false){
+        if(!result){
             System.out.println("result: " + result);
         }
         if(true){
@@ -37,7 +47,8 @@ public class IfANdElse {
 
 
     public static void main(String[] args) {
-        returnEmpty();
-        implementIfElse(-1);
+//        returnEmpty();
+//        implementIfElse(-1);
+        printResult(2);
     }
 }

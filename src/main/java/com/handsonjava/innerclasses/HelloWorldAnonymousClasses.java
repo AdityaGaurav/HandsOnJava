@@ -6,7 +6,11 @@ import java.util.stream.Collectors;
  * Created by adityag on 2/8/17.
  */
 public class HelloWorldAnonymousClasses {
-
+    final static int c = 200;
+    static final int cb =m1();
+    static int m1(){
+        return c+1;
+    }
     interface HelloWorld {
         public void greet();
 
@@ -31,6 +35,9 @@ public class HelloWorldAnonymousClasses {
         HelloWorld englishGreeting = new EnglishGreeting();
 
         HelloWorld frenchGreeting = new HelloWorld() {
+            class A{
+
+            }
             String name = "tout le monde";
 
             public void greet() {

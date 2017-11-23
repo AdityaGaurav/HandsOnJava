@@ -55,6 +55,14 @@ public class MapInterFace {
 
 
     }
+    public void mapPrac(){
+        Map<Integer, String> empDetails =new TreeMap<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return 0;
+            }
+        });
+    }
 
 
     public static void main(String[] args) {
