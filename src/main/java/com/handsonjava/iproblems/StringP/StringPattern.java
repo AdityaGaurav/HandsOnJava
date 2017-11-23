@@ -27,6 +27,6 @@ public class StringPattern {
         return false;
     }
     public static void main(String[] args) {
-        System.out.println(isPatternPresent("Thisismycheckistofindisinthisistoisi", "to"));
+        System.out.println(isPatternPresent("Thisismycheckistofindisinthisistoisi", ""));
     }
 }
