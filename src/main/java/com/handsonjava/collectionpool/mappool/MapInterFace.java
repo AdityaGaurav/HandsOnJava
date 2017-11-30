@@ -10,13 +10,12 @@ public class MapInterFace {
 
     public static void useMap() {
         Map<Integer, String> empDetails = new HashMap<Integer, String>();
-
         String value = empDetails.put(1, "Aditya");
         empDetails.put(2, "Gaurav");
         empDetails.put(3, "Anand");
         empDetails.put(9, "Upadhyay");
         empDetails.put(5, "Dipika");
-        empDetails.put(6, null);
+        empDetails.put(null, null);
         empDetails.put(7, "Kartik");
         String value2 = empDetails.put(7, "Sid");
         empDetails.put(null, null);

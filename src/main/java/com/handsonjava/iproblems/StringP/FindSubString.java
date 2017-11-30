@@ -1,6 +1,7 @@
 package com.handsonjava.iproblems.StringP;
 
 public class FindSubString {
+
     static int findSubStringCount(String inputString, String subString) {
         if (inputString == null || subString == null) {
             return -1;

@@ -29,5 +29,6 @@ public class LambdaBasics {
 //        Thread td = new Thread(()->printMyMessage());
         Thread td = new Thread(LambdaBasics::printMyMessage);
         td.start();
+
     }
 }

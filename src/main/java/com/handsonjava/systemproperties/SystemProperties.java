@@ -1,4 +1,4 @@
-package com.handsonjava;
+package com.handsonjava.systemproperties;
 
 import java.io.File;
 import java.util.Properties;
@@ -45,6 +45,6 @@ public class SystemProperties {
     }
 
     public static void main(String[] args){
-        findSystemProperties();
+        findProperties();
     }
 }

@@ -12,6 +12,7 @@ public class SetClasses {
         Set<String> store = new HashSet<String>();
         store.add("Aditya");
         store.add("101");
+        store.add(null);
         store.add("QA");
         store.add("Pramati");
         store.add(null);
@@ -24,10 +25,10 @@ public class SetClasses {
 
 //        Using Iterator
 
-        Iterator<String> itr = store.iterator();
-        while (itr.hasNext()) {
-            System.out.println(itr.next());
-        }
+//        Iterator<String> itr = store.iterator();
+//        while (itr.hasNext()) {
+//            System.out.println(itr.next());
+//        }
     }
 
     //Maintains the order of insertion
@@ -95,6 +96,6 @@ public class SetClasses {
     }
 
     public static void main(String[] args) {
-        allAdd();
+        addElement();
     }
 }
