@@ -1,0 +1,16 @@
+05/Feb/2018 20:49:18,624- Example: Info : number is 345
+05/Feb/2018 20:49:18,625- Example: Warning : number is 345
+05/Feb/2018 20:49:18,625- Example: Debug : number is 345
+05/Feb/2018 20:49:18,625- Example: Error : number is 345
+05/Feb/2018 20:49:18,626- Example: Fatal : number is 345
+05/Feb/2018 20:49:18,626- Example: Info : You chose a number > 100 
+05/Feb/2018 20:49:18,626- Example: Warning : You chose a number > 100 
+05/Feb/2018 20:49:18,626- Example: Debug : You chose a number > 100 
+05/Feb/2018 20:49:18,626- Example: Error : You chose a number > 100 
+05/Feb/2018 20:49:18,626- Example: Fatal : You chose a number > 100 
+05/Feb/2018 20:49:18,626- Example: Info : Your number has the digit 3
+05/Feb/2018 20:49:18,627- Example: Warning : Your number has the digit 3
+05/Feb/2018 20:49:18,630- Example: Debug : Your number has the digit 3
+05/Feb/2018 20:49:18,631- Example: Error : Your number has the digit 3
+05/Feb/2018 20:49:18,631- Example: Fatal : Your number has the digit 3
+05/Feb/2018 20:49:18,631- Example: Info : Your number has the digit 4

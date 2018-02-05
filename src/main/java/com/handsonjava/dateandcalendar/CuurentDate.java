@@ -18,6 +18,7 @@ public class CuurentDate {
         System.out.println(dtf.format(localDate));
         String datew ="2017/12/23";
         System.out.println(dtf.format(localDate).equals(datew));
+
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
         Date date1 = sdf.parse(dtf.format(localDate));
         Date date2 = sdf.parse(datew);

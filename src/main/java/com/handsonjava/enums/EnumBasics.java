@@ -45,7 +45,7 @@ public enum EnumBasics {
         this.machine = machine;
     }
 
-    EnumBasics() {
+     EnumBasics() {
 
     }
 public static void callStatic(){
@@ -55,7 +55,7 @@ public static void callStatic(){
         return this.browserName + " " + this.browserVersion + " " + this.machine;
     }
 
-    public abstract String getDetails();
+    public  String getDetails(){return null;}
 
     public static void main(String[] args) {
 

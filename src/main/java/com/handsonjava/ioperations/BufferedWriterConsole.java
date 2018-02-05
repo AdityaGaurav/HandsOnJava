@@ -13,7 +13,8 @@ public class BufferedWriterConsole {
         try(BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
 //            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
             String data = bufferedReader.readLine();
-            System.out.println(data);
+            bufferedReader.lines().forEach(System.out::print);
+            //System.out.println(data);
         } catch (IOException e) {
             e.printStackTrace();
         }

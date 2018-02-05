@@ -35,11 +35,19 @@ public class InPlaceReverse {
                     j = str.length();
                 }
             }
+//            stringBuilder2.reverse();
             return stringBuilder2.toString();
         }
     }
+
+    public static void reverseString(){
+        StringBuilder stringBuilder = new StringBuilder("Aditya Gaurav");
+        stringBuilder.reverse();
+        System.out.println(stringBuilder);
+    }
 public static void main(String[] args){
-        System.out.println(performInPlace("Aditya Gaurav Tripathi K li"));
+        System.out.println(performInPlace(" Ad   Bv Cvvvvv      Bnnnnn       ."));
+//    reverseString();
 }
 
 }

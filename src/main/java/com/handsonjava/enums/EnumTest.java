@@ -36,12 +36,12 @@ public class EnumTest {
 
     public static void main(String[] args) {
         System.out.println(EnumBasics.FIREFOX.getDetails());
-        EnumBasics c ;
-        EnumBasics.callStatic();
-        for (EnumBasics enumBasics : EnumBasics.values()) {
-            enumBasics.getBrowserDetails();
-            enumBasics.getDetails();
-
-        }
+        EnumBasics c = EnumBasics.FIREFOX;
+        System.out.println(c.equals(EnumBasics.FIREFOX));
+//        EnumBasics.callStatic();
+//        for (EnumBasics enumBasics : EnumBasics.values()) {
+//            enumBasics.getBrowserDetails();
+//            enumBasics.getDetails();
+//        }
     }
 }

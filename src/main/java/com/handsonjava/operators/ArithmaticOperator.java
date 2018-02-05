@@ -7,6 +7,11 @@ public class ArithmaticOperator {
     public static void main(String[] args){
         int a =11;
         int b = 73;
-        System.out.println(a%b);
+//        System.out.println(a%b);
+        System.out.println(a++);
+            System.out.println(a);
+        System.out.println(++a);
+        System.out.println(a);
+        System.out.println( 5 & 6);
     }
 }

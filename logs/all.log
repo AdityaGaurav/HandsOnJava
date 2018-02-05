@@ -1,0 +1,67 @@
+2018-02-05 01:08:55.590 [main] DEBUG com.practicejava.logging.LoggingTest - Debug Again
+2018-02-05 01:08:55.605 [main] WARN  com.practicejava.logging.LoggingTest - warn again
+2018-02-05 01:08:55.605 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 01:08:55.605 [main] INFO  com.practicejava.logging.LoggingTest - info
+2018-02-05 01:25:01.680 [main] DEBUG com.practicejava.logging.LoggingTest - Debug Again
+2018-02-05 01:25:01.696 [main] WARN  com.practicejava.logging.LoggingTest - warn again
+2018-02-05 01:25:01.696 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 01:25:01.696 [main] INFO  com.practicejava.logging.LoggingTest - info
+2018-02-05 01:27:03.552 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 01:27:03.552 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 01:27:03.552 [main] WARN  com.practicejava.logging.LoggingTest - warn again
+2018-02-05 01:27:03.552 [main] INFO  com.practicejava.logging.LoggingTest - info
+2018-02-05 01:27:03.552 [main] DEBUG com.practicejava.logging.LoggingTest - Debug Again
+2018-02-05 01:27:03.552 [main] DEBUG com.practicejava.logging.LoggingTest - trace
+2018-02-05 01:27:25.673 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 01:27:25.673 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 01:27:25.673 [main] WARN  com.practicejava.logging.LoggingTest - warn again
+2018-02-05 01:27:25.673 [main] INFO  com.practicejava.logging.LoggingTest - info
+2018-02-05 01:27:25.673 [main] DEBUG com.practicejava.logging.LoggingTest - Debug Again
+2018-02-05 01:27:52.763 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 01:27:52.763 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 01:27:52.763 [main] WARN  com.practicejava.logging.LoggingTest - warn again
+2018-02-05 01:27:52.767 [main] INFO  com.practicejava.logging.LoggingTest - info
+2018-02-05 01:28:10.941 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 01:28:10.941 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 01:30:47.569 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 01:30:47.579 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 14:25:04.642 [main] FATAL com.practicejava.logging.LoggingTest2 - Fatalcom.practicejava.logging.LoggingTest2
+2018-02-05 14:25:04.642 [main] ERROR com.practicejava.logging.LoggingTest2 - errorcom.practicejava.logging.LoggingTest2
+2018-02-05 14:25:04.642 [main] WARN  com.practicejava.logging.LoggingTest2 - warn againcom.practicejava.logging.LoggingTest2
+2018-02-05 14:25:04.642 [main] INFO  com.practicejava.logging.LoggingTest2 - infocom.practicejava.logging.LoggingTest2
+2018-02-05 14:25:04.642 [main] DEBUG com.practicejava.logging.LoggingTest2 - Debug Againcom.practicejava.logging.LoggingTest2
+2018-02-05 14:25:04.642 [main] TRACE com.practicejava.logging.LoggingTest2 - tracecom.practicejava.logging.LoggingTest2
+2018-02-05 14:25:04.642 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 14:25:04.642 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 14:29:19.476 [main] FATAL com.practicejava.logging.LoggingTest2 - Fatalcom.practicejava.logging.LoggingTest2
+2018-02-05 14:29:19.493 [main] ERROR com.practicejava.logging.LoggingTest2 - errorcom.practicejava.logging.LoggingTest2
+2018-02-05 14:29:19.493 [main] WARN  com.practicejava.logging.LoggingTest2 - warn againcom.practicejava.logging.LoggingTest2
+2018-02-05 14:29:19.494 [main] INFO  com.practicejava.logging.LoggingTest2 - infocom.practicejava.logging.LoggingTest2
+2018-02-05 14:29:19.494 [main] DEBUG com.practicejava.logging.LoggingTest2 - Debug Againcom.practicejava.logging.LoggingTest2
+2018-02-05 14:29:19.494 [main] TRACE com.practicejava.logging.LoggingTest2 - tracecom.practicejava.logging.LoggingTest2
+2018-02-05 14:29:19.494 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 14:29:19.494 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 14:54:19.627 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 14:54:19.627 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 14:54:28.609 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 14:54:28.609 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 14:54:28.609 [main] FATAL com.practicejava.logging.LoggingTest2 - Fatalcom.practicejava.logging.LoggingTest2
+2018-02-05 14:54:28.609 [main] ERROR com.practicejava.logging.LoggingTest2 - errorcom.practicejava.logging.LoggingTest2
+2018-02-05 14:54:28.609 [main] WARN  com.practicejava.logging.LoggingTest2 - warn againcom.practicejava.logging.LoggingTest2
+2018-02-05 14:54:28.609 [main] INFO  com.practicejava.logging.LoggingTest2 - infocom.practicejava.logging.LoggingTest2
+2018-02-05 14:54:28.609 [main] DEBUG com.practicejava.logging.LoggingTest2 - Debug Againcom.practicejava.logging.LoggingTest2
+2018-02-05 14:54:28.609 [main] TRACE com.practicejava.logging.LoggingTest2 - tracecom.practicejava.logging.LoggingTest2
+2018-02-05 15:40:18.706 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 15:40:18.706 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 15:47:55.931 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 15:47:55.931 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 15:47:55.931 [main] FATAL AdityaGaurav - Fatalcom.practicejava.logging.LoggingTest2
+2018-02-05 15:47:55.931 [main] ERROR AdityaGaurav - errorcom.practicejava.logging.LoggingTest2
+2018-02-05 15:48:54.417 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 15:48:54.417 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 15:49:56.591 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 15:49:56.591 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 16:45:31.628 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 16:45:31.628 [main] ERROR com.practicejava.logging.LoggingTest - error
+2018-02-05 17:36:40.206 [main] FATAL com.practicejava.logging.LoggingTest - Fatal
+2018-02-05 17:36:40.206 [main] ERROR com.practicejava.logging.LoggingTest - error
